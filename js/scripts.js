@@ -1,23 +1,31 @@
-function add(number1, number2) {
+function add(prompt1answer, prompt2answer) {
   return number1 + number2;
-  }
+}
 
-function subtract(number1, number2) {
+function subtract(prompt1answer, prompt2answer) {
   return number1 - number2;
 }
 
-function multiply(number1, number2) {
+function multiply(prompt1answer, prompt2answer) {
   return number1 * number2;
 }
 
-function divide(number1, number2) {
+function divide(prompt1answer, prompt2answer) {
   return number1 / number2;
 }
 
-function remainder(number1, number2) {
+function remainder(prompt1answer, prompt2answer) {
   return number1 % number2;
 }
-  const number1 = parseInt(prompt("Enter a number:"));
+
+function converttempCtoF(prompt1answer) {
+  return (number1 * (9 / 5)) + 32;
+}
+
+
+
+
+  const number1 = parseInt(prompt("Enter a temperature in degrees celsius:"));
   const number2 = parseInt(prompt("Enter another number:"));
-  const result = add(number1, number2);  
+  const result = remainder(number1, number2);  
   alert(result);
